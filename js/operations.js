@@ -23,7 +23,7 @@ export default function calculateOperation(firstNumber, secondNumber, operator) 
             }
             return firstNumber / secondNumber;
         case '^':
-            return firstNumber ** secondNumber; // Operazione potenza per il compito avanzato
+            return firstNumber ** secondNumber; // Operazione potenza per il compito avanzato // Exponent operation - feature-exponent branch
         default:
             throw new Error("유효한 연산자를 선택하세요.");
     }
