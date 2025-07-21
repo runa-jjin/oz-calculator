@@ -15,7 +15,7 @@ import { showError, removeError } from './error.js';
 import saveHistory, { displayHistory, clearHistory } from './history.js';
 
 // Variabili di stato globali
-let history = []; // History for exponent operations and displaying records
+let history = []; // History for displaying records - enhanced
 let currentInput = "";
 let firstNumber = null;
 let operator = null;
